@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Special Letter</title>
+  <style>
+    body {
+      background: pink;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-image: url('https://example.com/heart-background.jpg'); /* Replace with a heart-themed image URL */
+      background-size: cover;
+    }
+    .letter-preview {
+      background-color: white;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+      cursor: pointer;
+      font-size: 1.2em;
+      color: #ff69b4;
+    }
+    .letter-preview:hover {
+      background-color: #ffe4e1;
+    }
+  </style>
+</head>
+<body>
+  <div class="letter-preview" onclick="window.location.href='letter.html'">
+    💌 Click here to read my special letter to you 💌
+  </div>
+</body>
+</html>
